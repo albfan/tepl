@@ -26,6 +26,12 @@ test_gutter_renderer_folds_SOURCES =		\
 	tepl-gutter-renderer-folds-sub.h	\
 	test-gutter-renderer-folds.c
 
+TEST_PROGS += test-fold-actions
+test_fold_actions_SOURCES =		\
+	tepl-gutter-renderer-folds-actions.c	\
+	tepl-gutter-renderer-folds-actions.h	\
+	test-fold-actions.c
+
 TEST_PROGS += test-menu
 test_menu_SOURCES = test-menu.c
 
